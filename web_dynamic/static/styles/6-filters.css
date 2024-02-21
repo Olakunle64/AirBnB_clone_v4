@@ -101,3 +101,12 @@ button:hover {
 .locations:hover .popover {
     visibility: visible;
 }
+.amenities .popover ul li {
+	margin-left: 10px;
+}
+.amenities h4 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 300px;
+    overflow-x: clip;
+}
